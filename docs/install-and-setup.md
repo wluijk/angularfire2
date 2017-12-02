@@ -72,6 +72,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase)
   ],
+  providers: [AngularFirestore],
   declarations: [ AppComponent ],
   bootstrap: [ AppComponent ]
 })
